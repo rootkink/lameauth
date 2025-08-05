@@ -1,0 +1,29 @@
+
+# @name login
+# @output login-response.json
+POST http://localhost:8800/auth/login
+Content-Type: application/json
+
+{
+  "username": "ayush108",
+  "password": "123456767"
+}
+
+
+
+
+
+###
+
+POST http://localhost:8800/auth/register HTTP/1.1
+Content-Type: application/json
+
+{
+  "email" : "ayush09763@expalme.com",
+  "username": "ayush108",
+  "password": "12345678"
+}
+
+
+
+
