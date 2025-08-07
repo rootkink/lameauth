@@ -153,7 +153,6 @@ class User {
     this.updated_at = updatedAt;
     this.password_history = oldPassword;
     this.login_attempts = loginAttempts ?? 0;
-    this.tokens = 
   }
 
   serialize() {
@@ -183,8 +182,8 @@ class User {
   }
 }
 
-class Token{
-  constructor({refreshToken ,created_at,expire_at,user_agent,ip }){
+class Token {
+  constructor({ refreshToken, created_at, expire_at, user_agent, ip }) {
     this.task = [];
   }
 }

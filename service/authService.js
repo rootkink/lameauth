@@ -202,13 +202,13 @@ const userRepository = new UserRepository("../model/users.json");
 const userServices = new UserServices(userRepository);
 const passwordServices = new PasswordServices();
 
-(async () => {
-  const as = new AuthService(userServices, passwordServices);
-  // as.register({
-  //   email: "ayush@example.com",
-  //   password: "12345678",
-  //   username: "ayush",
-  // });
-  const data = await as.login({ username: "ayush", password: "12345678" });
-  console.log(data);
-})();
+// (async () => {
+//   const as = new AuthService(userServices, passwordServices);
+//   // as.register({
+//   //   email: "ayush@example.com",
+//   //   password: "12345678",
+//   //   username: "ayush",
+//   // });
+//   const data = await as.login({ username: "ayush", password: "12345678" });
+//   console.log(data);
+// })();
