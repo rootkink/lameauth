@@ -181,9 +181,3 @@ class User {
     });
   }
 }
-
-class Token {
-  constructor({ refreshToken, created_at, expire_at, user_agent, ip }) {
-    this.task = [];
-  }
-}
